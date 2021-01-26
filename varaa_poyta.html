@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varaa pöytä</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+
+        .element{
+            object-fit: fill;
+        }
+        body{
+            background-color: rgb(29, 29, 29);
+        }
+        a:hover{
+            color: red;
+        }
+        .footer{
+            color: whitesmoke;
+            text-align: center;
+        }
+        .form{
+            color: whitesmoke;
+            margin-left: 35%;
+        }
+        .navbar{
+            background-color: rgb(107, 107, 107);
+        }
+
+    </style>
+
+    </head>
+
+    <div class="container">
+        <div class="row"> 
+        <nav id ="navbar"class="navbar navbar-light" style="background-color: rgb(255, 255, 255)">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Images/LogoP.jpg" alt="" width="30" height="24">
+            </a>
+            <ul class="nav justify-content-left">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Etusive</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Lounas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">À la carte</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#yhteystiedot">Yhteystiedot</a>
+            </li>
+            </ul>
+            <form class="form-inline">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Varaa Pöytä</button>
+            </form>
+        </div>
+        
+        </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+            <h4 id="#yhteystiedot"></h4>
+            
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="form">
+        <h3>Varauksen tiedot</h3>
+        <form>
+            <div class="row mb-3">
+            <div class="container-fluid">
+
+                <div class="col-sm-4">
+                    <label for="inputname"class="form-label">Nimi:</label>
+                    <input type="text" class="form-control" id="inputname">
+                </div>
+
+                <div class="col-sm-4">
+                    <label for="Inputpuhnum"class="form-label">Puhelinnumero:</label>
+                    <input type="text" class="form-control" id="Inputpuhnum">
+                </div>
+
+                <div class="col-sm-4">
+                    <label for="Inputemail"class="form-label">Sähköposti:</label>
+                    <input type="email" class="form-control" id="inputemail">
+                </div>
+
+                <div class="col-sm-4">
+                    <label for="FormCustomSelect">Kuinka monta ihmistä?</label>
+                    <select class="custom-select " id="FormCustomSelect">
+                      <option selected>Valitse</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="1">4</option>
+                      <option value="1">5</option>
+                      <option value="1">6</option>
+                      <option value="1">7</option>
+                      <option value="1">8</option>
+                      <option value="1">9</option>
+                      <option value="1">10</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-4">
+                    <laber for="time">Kellonaika</laber>
+                    <input type="time" id="time">
+                </div>
+
+                <div class="col-sm-4">
+                    <laber for="date">Päivämäärä</laber>
+                    <input type="date" id="date">
+                </div>
+                
+                <div class="textarea">
+                    <h5>Lisätietoja varauksesta:</h5>
+                    <textarea style="width: 25%; height: 100px;">
+
+                    </textarea>
+                </div>
+
+                <div class="button">
+                    <button class="btn btn-primary" name="send" type="submit">Varaa</button>
+                </div>
+
+            </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="container bg-dark">
+            <div class="footer-logo">
+                <img src="Images/LogoP.jpg" alt="" width="80" height="70">
+            </div>
+            <h2>PikkuPoikien PihviPaikka</h2>
+            <p>
+                Grillimiehenkatu 12
+                <br>
+                Aukioloajat:
+                Ma-Pe 10 - 22 ,
+                La-Su 12 - 21
+                <br>
+                Puh: +358 9 8712 3645
+                <br>
+                <a class="link" href="#"> Etusivulle </a>
+                <br>
+            </p>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
