@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Author / Jarkko" content="RestaurantPPPP">
-    <title>PPPP</title>
+    <meta name="title" content="RestaurantPPPP, Varaa pöytä">
+    <title>PPPP Ravintola</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -25,6 +25,7 @@
 <body>
 
 
+<<<<<<< Updated upstream
   <div class="container bg-dark"; margin-top: 40px;>
   
     <div class="container">
@@ -67,16 +68,53 @@
 
     <div class="container-fluid bg-dark">
       <form method="post" action="//submit.form" onSubmit="return validateForm();">
+=======
 
-        <img src="Images/Grilled.png" alt="Pihvi" style="float:right;width:50%;height:100%; object-fit:cover; padding-right: 1em; padding-top: 1em;">
+  
+  <div class="container">
+    <div class="row"> 
+      <nav class="navbar navbar-light" style="background-color: rgb(168, 168, 168)">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="RestaurantPPPP.html">
+                <img src="Images/Pikkupoikienlg.png" alt="Logo" width="200" height="80"></a>
+          <ul class="nav justify-content-left">
+  
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="RestaurantPPPP.html">Etusivu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lounas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">À la carte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#yhteys">Yhteystiedot</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">VARAA PÖYTÄ</a>
+            </li>
+          </ul>
+        </div>
+       </nav>
+      </div>
+    </div>
+    <div class="container" style="background-color: rgb(143, 143, 143);">
+    <form method="post" action="//submit.form" onSubmit="return validateForm();">
+>>>>>>> Stashed changes
+
+        <img src="Images/Pikkupoikienlg.png" alt="Logo" style="float:right;width:50%;height:100%; object-fit:cover; padding-right: 1em; padding-top: 1em;">
         <div style="max-width: 400px;"></div>
-        <div style="padding-bottom: 18px;font-size : 24px;">Pöytä Varaus / Table Reservation</div>
+        <div style="padding-bottom: 18px;font-size : 32px;">Pöytä Varaus / Table Reservation</div>
         <div style="padding-bottom: 18px;font-size : 18px;">Me varaamme innoissamme teille pöydän ravintolastamme. <br> We would be glad to reserve a table for you at our restaurant!</div>
         <div style="padding-bottom: 18px;">Nimi / Name<span style="color: red;"> *</span><br/>
         <input type="text" id="data_3" name="data_3" style="max-width : 400px;" class="form-control"/>
         </div>
-        <div style="padding-bottom: 18px;">Puhelin / Phone<br/>
+        <div style="padding-bottom: 18px;">Puhelin / Phone<span style="color: red;"> *</span><br/>
         <input type="text" id="data_4" name="data_4" style="max-width : 400px;" class="form-control"/>
+        </div>
+        <div style="padding-bottom: 18px;">Email<br/>
+        <input type="text" id="data_5" name="data_5" style="max-width : 400px;" class="form-control"/>
         </div>
         <div style="padding-bottom: 18px;">Päivä / Date<span style="color: red;"> *</span><br/>
         <input type="text" id="data_6" name="data_6" style="max-width : 250px;" class="form-control"/>
@@ -94,17 +132,13 @@
         <option>4</option>
         <option>5</option>
         <option>6</option>
-        <option>7</option>
-        <option>8</option>
-        <option>9</option>
-        <option>10</option>
-        <option>10+ (Tarkenna kommenteissa / Specify in Comments)</option>
+        <option>6+ (Tarkenna kommenteissa / Specify in Comments)</option>
         </select>
         </div>
         <div style="padding-bottom: 18px;">Kommentit / Additional Requests<br/>
         <textarea id="data_9" name="data_9" style="max-width : 400px;" rows="6" class="form-control"></textarea>
         </div>
-        <div aref  style="padding-bottom: 18px;"><input name="skip_Submit" value="Lähetä / Send" type="submit"/></div>
+        <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Lähetä / Send" type="submit"/></div>
        
       </form>
         
@@ -112,6 +146,10 @@
         function validateForm() {
         if (isEmpty(document.getElementById('data_3').value.trim())) {
         alert('Nimi vaaditaan / Name is required!');
+        return false;
+        }
+        if (!validateEmail(document.getElementById('data_5').value.trim())) {
+        alert('Email must be a valid email address!');
         return false;
         }
         if (isEmpty(document.getElementById('data_6').value.trim())) {
@@ -130,6 +168,7 @@
         return isEmpty(email) || re.test(email);
         }
         </script>
+<<<<<<< Updated upstream
     </div>
      
     <div class="footer">
@@ -155,6 +194,34 @@
         </div>
     </div>
                    
+=======
+              
+            
+     <div class="footer">
+      <div class="container">
+      <div class="footer-logo">
+         <img src="Images/Pikkupoikienlg.png" alt="Logo" width="200" height="80">
+      </div>
+      <h2 id="yhteys">PikkuPoikien PihviPaikka</h2>
+      <p>
+        Grillimiehenkatu 12
+        <br>
+        Aukioloajat / Open : <br>
+        Ma-Pe 10 - 22 ,
+        La-Su 12 - 21 <br>
+        Mon-Fri 10 - 22 ,
+        Sat-Sun 12 - 21
+        <br>
+        Puh/Tel: +358 9 8712 3645
+        <br>
+        ppppravintola@outlook.com
+        <br>
+        <a class="link" href="RestaurantPPPP.html"> Etusivulle </a>
+        <br>
+      </p>
+         </div>
+       </div>         
+>>>>>>> Stashed changes
                
             
   </div>

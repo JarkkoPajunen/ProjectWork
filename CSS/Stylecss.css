@@ -10,22 +10,22 @@ object-fit: fill;
 
 a:hover
 {
-background-color: rgb(152, 153, 155);
+background-color: rgb(150, 150, 150);
 }
 
 .header
 {
-background-color: rgb(179, 179, 179);
+background-color: rgb(150, 150, 150);
 }
 
 .navbar
 {
-background-color: rgb(107, 107, 107);
+background-color: rgb(150, 150, 150);
 }
 
 .footer
 {
-color: whitesmoke;
+color: rgb(255, 255, 255);
 text-align: center;
 }
 
@@ -49,6 +49,12 @@ h2
 text-align: center;
 margin-left: 90px;
 margin-right: 90px; 
+}
+
+a
+{
+color: blue;
+font-size: 18px;
 }
 
 .button
