@@ -12,6 +12,10 @@ a:hover
 {
 background-color: rgb(152, 153, 155);
 }
+a{
+    color: blue;
+    font-size: 18px;
+}
  
 .header
 {
