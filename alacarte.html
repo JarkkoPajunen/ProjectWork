@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Author / Jarkko" content="RestaurantPPPP">
+    <meta name="PPPP / A la carte" content="RestaurantPPPP. The best steaks in town">
     <title>PPPP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -15,6 +15,10 @@
           display: block;
           object-fit: contain;
          }
+         header {
+           width: 100%;
+           
+         }
     </style>
  
     
@@ -23,12 +27,12 @@
  
   <div class="container">
    <div class="row"> 
-    <nav class="navbar navbar-light" style="background-color: rgb(107, 107, 107)">
+    <nav class="navbar navbar-light" style="background-color: rgb(255, 255, 255)">
           <div class="container-fluid">
-        <ul class="nav justify-content-left">
-          <a class="navbar-brand" href="#"></a>
+            <a class="navbar-brand" href="#"></a>
             <img src="Images/LogoP.png" alt="" width="120" height="96">
-          </a>
+        <ul class="nav justify-content-left">
+            
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Etusivu</a>
           </li>
@@ -55,92 +59,114 @@
  
      <div class="container bg-dark text-white">
         <span class="img-container">
-          <img class="img-fluid" src="Images/pihvi.jpg"  alt="pihvi" class="mx-auto d-block">
+          <img class="img-container" src="Images/pihvi.jpg"   alt="pihvi">
         </span>
-        <header class="page-header header container-fluid">
-        <div class="container-ruokalista">
+        <header class="page-header bg-dark header container-fluid">
+        <div class="container-fluid">
             <h1>Menu</h1><br><br>
             <h2>STARTERIT</h2><br>
             <p>
-            <h3>FOREST MUSHROOM SOUP</h3> 
-            Metsäsienikeittoa ja mallascrumblea<br>
-            (L)
-              
-          </p> 
+              <h3>FOREST MUSHROOM SOUP</h3>
+              Metsänsienikeittoa ja mallascrumblea<br>
+              7€
+            </p>
+
             <p>
               <h3>CRAB CAKE</h3>
               Rapukakkua choron- ja Dijon-sinappikastikkeella<br>
-              (L)
+              (L)<br>
+              9€
             </p>
         
             <p>
               <h3>BEEF TARTAR</h3>
               Tartar Black Angus -härän sisäfileestä, tryffelikreemiä ja keltuaista<br>
-              (L, G)
+              (L, G)<br>
+              10€
             </p>
 
             <p>
               <h3>CAESAR SALAD</h3>
               Romainesalaattia, caesarkastiketta, leipäkrutonkeja ja parmesaania<br>
-              (L)
+              (L)<br>
+              7€
             </p><br>
 
             <h2>BURGERIT</h2><br>
             <P>
               <h3>L.A. BURGER</h3>
-              Black Angus -karjasta valmistettu 200 g burgerpihvi, cheddarjuustoa, marinoitua punasipulia<br>, rucolaa, suolakurkkua, tomaattia ja aiolia sekä parmesaanilla maustettuja maalaisranskalaisia
-              
+              Black Angus -karjasta valmistettu 200 g burgerpihvi, cheddarjuustoa, marinoitua punasipulia<br>, rucolaa, suolakurkkua, tomaattia ja aiolia sekä parmesaanilla maustettuja maalaisranskalaisia<br>
+              15€
             </P>
 
             <p>
               <h3>HOT HOLY SMOKE </h3>
               Roslundin 150 g naudanlihapihvi, briossi, Monterey Jack -juusto, savu-chilimajo,<br> karamellisipuli, maustekurkku, pikkelöity chili
               <br>
-              (L)
+              (L)<br>
+              12€
             </p>
             <p>
               <h3>CRISPY CHICK BRGR</h3>
               Paneroitua broileria, briossi, Monterey Jack -juusto, avokadoa, punasipuli, majoneesi<br>
-              (L)
+              (L)<br>
+              12€
             </p>
 
             <p>
               <h3>BROOKLYN HABANERO</h3>
-              Briossi, habaneromajoneesi, salaatti, pikkelöity punasipuli, pihvi, cheddar, tomaatti, habaneroketsuppi
+              Black Angus -karjasta valmistettu 200 g burgerpihvi, briossi, habaneromajoneesi, salaatti, pikkelöity punasipuli, pihvi, cheddar, tomaatti, habaneroketsuppi<br>
+              15€
             </p><br>
-
+            
             <h2>PIHVIT</h2><br>
             <p>
               <h3>TOMAHAWK</h3>
-              Kotimainen luullinen ulkofile
+              Kotimainen luullinen ulkofile<br>
+              15€
             </p>
             
             <p>
               <h3>BONELESS RIB EYE</h3>
-              Luuton entrecote
+              Luuton entrecote<br>
+              17€
             </p>
 
             <p>
               <h3>WAGYU TENDERLOIN</h3>
               Wagyu-härän sisäfilepihvi<br>
-              Hienointa ja laadukkainta Wagyu-karjan pihvilihaa Australian Tingunin (QLD) alueelta.
+              Hienointa ja laadukkainta Wagyu-karjan pihvilihaa Australian Tingunin (QLD) alueelta.<br>
+              25€
             </p>
 
             <p>
               <h3>FINNISH REINDEER SIRLOIN</h3>
-              Kotimaisen poron ulkofile
+              Kotimaisen poron ulkofile<br>
+              20€
             </p><br>
 
             <h2>PIZZAT</h2>
             <p>
               <h3>Pepperoni</h3>
-              Tomaattikastike, runsaasti juustoa, pepperonimakkaraa 
+              Tomaattikastike, tuplajuusto, pepperonimakkaraa <br>
+              12€
             </p>
             <p>
               <h3>Hawaii</h3>
-              Tomaattikastike,Juusto, Kinkkusuikale, Ananas,
+              Tomaattikastike,Juusto, Kinkkusuikale, Ananas,<br>
+              12€
+            </p>
+            <p>
+              <h3>Special Opera</h3>
+              tomaattikastike, juusto, kinkkusuikale, tonnikala, salami, <br>
+              12€
             </p>
             
+            <p>
+              <h3>Meat special</h3>
+              Tomaattikastike, juusto, kebab, kinkku, pekoni<br>
+              12€
+            </p>
 
         </div>
        </header>
@@ -148,7 +174,7 @@
         <div class="footer">
           <div class="container">
               <div class="footer-logo">
-                  <img src="Images/LogoP.jpg" alt="" width="120" height="96">
+                  <img src="Images/LogoP.png" alt="" width="120" height="96">
               </div>
               <h2>Ravintolan nimi</h2>
               <p>
