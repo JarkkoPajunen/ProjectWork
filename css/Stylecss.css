@@ -1,0 +1,82 @@
+body
+{
+background-color: rgb(29, 29, 29);
+}
+
+.element 
+{
+object-fit: fill;
+}
+
+a:hover
+{
+background-color: rgb(150, 150, 150);
+}
+
+.header
+{
+background-color: rgb(150, 150, 150);
+}
+
+.navbar
+{
+background-color: rgb(150, 150, 150);
+}
+
+.footer
+{
+color: rgb(255, 255, 255);
+text-align: center;
+}
+
+p
+{
+text-align: center;
+margin-left: 90px;
+margin-right: 90px;
+}
+
+h1
+{
+color: red;
+text-align: center;
+margin-left: 90px;
+margin-right: 90px;    
+}
+
+h2
+{
+text-align: center;
+margin-left: 90px;
+margin-right: 90px; 
+}
+
+a
+{
+color: blue;
+font-size: 18px;
+}
+
+.button
+{
+content: none;
+background-color:rgb(29, 29, 29);
+border: none;
+color: red;
+padding: 20px 28px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 20px 20px;
+cursor: pointer;
+}
+
+.center
+{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 140px;
+}
+

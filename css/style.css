@@ -1,0 +1,46 @@
+body
+{
+background-color: rgb(29, 29, 29);
+}
+ 
+.element 
+{
+object-fit: fill;
+}
+ 
+.img-container {
+    max-width: 100%;
+}
+
+a:hover
+{
+background-color: red;
+}
+ 
+.header
+{
+color: whitesmoke;
+text-align: center;
+}
+ 
+ .header h2{
+    color: red;
+ }
+.footer{
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+}
+.paragraph {
+    display: inline-block;
+    text-align: center;
+}
+
+.right-aligned {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+}
+h3 {
+    font-size: larger;
+}
