@@ -8,6 +8,10 @@ background-color: rgb(29, 29, 29);
 object-fit: fill;
 }
  
+.img-container {
+    max-width: 100%;
+}
+
 a:hover
 {
 background-color: red;
@@ -39,4 +43,8 @@ text-align: center;
 }
 h3 {
     font-size: larger;
+}
+
+img {
+    
 }
