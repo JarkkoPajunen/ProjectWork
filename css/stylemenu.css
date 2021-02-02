@@ -1,0 +1,40 @@
+body
+{
+background-color: rgb(29, 29, 29);
+}
+ 
+.element 
+{
+object-fit: fill;
+}
+ 
+a:hover
+{
+background-color: rgb(152, 153, 155);
+}
+a{
+    color: blue;
+    font-size: 18px;
+}
+ 
+.header
+{
+background-color: blue;
+ 
+}
+ 
+.navbar
+{
+    background-color: rgb(150, 150, 150);
+}
+ 
+.footer{
+    color: whitesmoke;
+    text-align: center;
+}
+h3{
+    color: red;
+}
+h1{
+    margin-top: 60px;
+}
